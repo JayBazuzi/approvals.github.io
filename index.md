@@ -7,7 +7,7 @@ title: Home
 
 > A picture's worth a 1000 tests.
 
-Unit testing asserts can be difficult to use. Approval tests simplify this by taking a snapshot of the results, and confirming that they have not changed.
+Sometimes unit testing asserts can be difficult to use. **Approval Tests** simplify this by taking a snapshot of the results, and confirming that they have not changed.
 
 In normal unit testing, you say `assertEquals(5, person.getAge())`. Approvals allow you to do this when the thing that you want to assert is no longer a primitive but a complex object. For example, you can say, `Approvals.verify(person).`
 
